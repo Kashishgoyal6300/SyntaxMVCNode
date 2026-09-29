@@ -8,6 +8,7 @@ const getUsers = async (req, res) => {
     catch (error) {
         console.error(error);
         res.status(400).json(users);
+        console.log("lasha darubaaz.....")
 
     }
 
